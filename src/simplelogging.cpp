@@ -36,7 +36,6 @@ void SimpleLogging::error(std::string msg){
     this->log(LOG_ERROR, msg);
 }
 
-/* Only for testing
 int main(int argc, char **argv){
     SimpleLogging logger;
     logger.enableColors();
@@ -46,4 +45,3 @@ int main(int argc, char **argv){
     std::cout << "\n\n";
     return 0;
 }
-*/
